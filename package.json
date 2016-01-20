@@ -1,0 +1,31 @@
+{
+  "name": "grunt-nuget-push",
+  "version": "0.0.1",
+  "description": "Grunt task for pushing nuget packages.",
+  "author": "Johan Sörlin <spocke@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spocke/grunt-nuget-push.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spocke/grunt-nuget-push/issues"
+  },
+  "keywords": [
+    "gruntplugin",
+    "nuget"
+  ],
+  "main": "tasks/nugetpush.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-nuget-pack": "*",
+    "load-grunt-tasks": "0.6.0"
+  },
+  "dependencies": {
+    "request": "^2.67.0"
+  }
+}
